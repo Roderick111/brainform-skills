@@ -1,0 +1,17 @@
+[project]
+name = "brainform"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.87.0",
+    "instructor>=1.14.5",
+    "openpyxl>=3.1.5",
+    "psycopg2-binary>=2.9.11",
+    "python-dotenv>=1.2.2",
+]
+
+[dependency-groups]
+dev = [
+    "python-docx>=1.2.0",
+]
